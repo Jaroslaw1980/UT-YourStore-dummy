@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524104039" tests="6" file=".py" time="0.677" timestamp="2022-05-24T10:40:43" failures="4" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.128" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="42">
+		<system-err><![CDATA[2022-05-24 10:40:43,298 :INFO : root :Inputed email: YaroBarogmail.com
+2022-05-24 10:40:43,298 :INFO : root :E-Mail Address does not appear to be valid!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.116" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="63">
+		<system-err><![CDATA[2022-05-24 10:40:43,617 :INFO : root :Confirmed password:  password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.101" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="28">
+		<failure type="AssertionError" message="None"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 33, in test_firstname_input
+    assert 1 < (len(self.firstname)) < 32, RegisterAccountTest.logger.info('First Name must be between 1 and 32 characters!')
+AssertionError: None
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:40:43,399 :INFO : root :Inputed firstname: Y
+2022-05-24 10:40:43,399 :INFO : root :First Name must be between 1 and 32 characters!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.101" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="35">
+		<failure type="AssertionError" message="None"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 40, in test_lastname_input
+    assert 1 < (len(self.lastname)) < 32, RegisterAccountTest.logger.info('Last Name must be between 1 and 32 characters!')
+AssertionError: None
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:40:43,500 :INFO : root :Inputed lastname: B
+2022-05-24 10:40:43,500 :INFO : root :Last Name must be between 1 and 32 characters!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.124" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="56">
+		<failure type="AssertionError" message="None"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 61, in test_passwordconfirm_input
+    assert 4 < (len(self.password)) < 20, RegisterAccountTest.logger.info('Password must be between 4 and 20 characters!')
+AssertionError: None
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:40:43,740 :INFO : root :Inputed password: pas
+2022-05-24 10:40:43,740 :INFO : root :Password must be between 4 and 20 characters!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.106" timestamp="2022-05-24T10:40:43" file="UTYourStore\Tests\test2_register_sad.py" line="49">
+		<failure type="AssertionError" message="None"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 54, in test_telephone_input
+    assert 3 < (len(self.telephone)) < 32, RegisterAccountTest.logger.info('Telephone must be between 3 and 32 characters!')
+AssertionError: None
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:40:43,847 :INFO : root :Inputed telephone: 666
+2022-05-24 10:40:43,847 :INFO : root :Telephone must be between 3 and 32 characters!
+]]></system-err>
+	</testcase>
+</testsuite>

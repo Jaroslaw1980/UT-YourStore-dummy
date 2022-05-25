@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524102730" tests="6" file=".py" time="0.706" timestamp="2022-05-24T10:27:35" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.137" timestamp="2022-05-24T10:27:34" file="UTYourStore\Tests\test1_register.py" line="42">
+		<system-err><![CDATA[2022-05-24 10:27:34,305 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-email\"]"}
+2022-05-24 10:27:34,320 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,322 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,322 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/c005dda4-a629-4df8-be0b-992080b83ed6/clear {"id": "c005dda4-a629-4df8-be0b-992080b83ed6"}
+2022-05-24 10:27:34,355 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/c005dda4-a629-4df8-be0b-992080b83ed6/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,355 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,355 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-email\"]"}
+2022-05-24 10:27:34,368 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,368 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,368 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/c005dda4-a629-4df8-be0b-992080b83ed6/value {"text": "YaroBaro@gmail.com", "value": ["Y", "a", "r", "o", "B", "a", "r", "o", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "c005dda4-a629-4df8-be0b-992080b83ed6"}
+2022-05-24 10:27:34,436 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/c005dda4-a629-4df8-be0b-992080b83ed6/value HTTP/1.1" 200 14
+2022-05-24 10:27:34,437 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,438 :INFO : root :Inputed email: YaroBaro@gmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.107" timestamp="2022-05-24T10:27:34" file="UTYourStore\Tests\test1_register.py" line="28">
+		<system-err><![CDATA[2022-05-24 10:27:34,439 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-firstname\"]"}
+2022-05-24 10:27:34,451 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,452 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,452 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/1edfc89e-c64c-4c49-bf3b-3b6223298ecf/clear {"id": "1edfc89e-c64c-4c49-bf3b-3b6223298ecf"}
+2022-05-24 10:27:34,486 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/1edfc89e-c64c-4c49-bf3b-3b6223298ecf/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,486 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,490 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-firstname\"]"}
+2022-05-24 10:27:34,497 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,498 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,498 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/1edfc89e-c64c-4c49-bf3b-3b6223298ecf/value {"text": "Yaro", "value": ["Y", "a", "r", "o"], "id": "1edfc89e-c64c-4c49-bf3b-3b6223298ecf"}
+2022-05-24 10:27:34,544 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/1edfc89e-c64c-4c49-bf3b-3b6223298ecf/value HTTP/1.1" 200 14
+2022-05-24 10:27:34,545 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,545 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.104" timestamp="2022-05-24T10:27:34" file="UTYourStore\Tests\test1_register.py" line="35">
+		<system-err><![CDATA[2022-05-24 10:27:34,546 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-lastname\"]"}
+2022-05-24 10:27:34,559 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,560 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,560 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/51ec33a2-5107-4f3f-99d3-79fa132fdd8c/clear {"id": "51ec33a2-5107-4f3f-99d3-79fa132fdd8c"}
+2022-05-24 10:27:34,596 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/51ec33a2-5107-4f3f-99d3-79fa132fdd8c/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,597 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,597 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-lastname\"]"}
+2022-05-24 10:27:34,603 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,603 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,603 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/51ec33a2-5107-4f3f-99d3-79fa132fdd8c/value {"text": "Baro", "value": ["B", "a", "r", "o"], "id": "51ec33a2-5107-4f3f-99d3-79fa132fdd8c"}
+2022-05-24 10:27:34,648 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/51ec33a2-5107-4f3f-99d3-79fa132fdd8c/value HTTP/1.1" 200 14
+2022-05-24 10:27:34,649 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,649 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.110" timestamp="2022-05-24T10:27:34" file="UTYourStore\Tests\test1_register.py" line="63">
+		<system-err><![CDATA[2022-05-24 10:27:34,650 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-confirm\"]"}
+2022-05-24 10:27:34,663 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,663 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,664 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/e6e99b29-4f28-4455-890d-90817b5ebc68/clear {"id": "e6e99b29-4f28-4455-890d-90817b5ebc68"}
+2022-05-24 10:27:34,700 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/e6e99b29-4f28-4455-890d-90817b5ebc68/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,700 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,701 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-confirm\"]"}
+2022-05-24 10:27:34,708 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,708 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,709 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/e6e99b29-4f28-4455-890d-90817b5ebc68/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "e6e99b29-4f28-4455-890d-90817b5ebc68"}
+2022-05-24 10:27:34,759 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/e6e99b29-4f28-4455-890d-90817b5ebc68/value HTTP/1.1" 200 14
+2022-05-24 10:27:34,759 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,760 :INFO : root :Confirmed password:  password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.115" timestamp="2022-05-24T10:27:34" file="UTYourStore\Tests\test1_register.py" line="56">
+		<system-err><![CDATA[2022-05-24 10:27:34,761 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-password\"]"}
+2022-05-24 10:27:34,772 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,772 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,773 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/d8490973-d862-4e58-88f7-bd4c505857fd/clear {"id": "d8490973-d862-4e58-88f7-bd4c505857fd"}
+2022-05-24 10:27:34,814 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/d8490973-d862-4e58-88f7-bd4c505857fd/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,814 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,815 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-password\"]"}
+2022-05-24 10:27:34,822 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,823 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,823 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/d8490973-d862-4e58-88f7-bd4c505857fd/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "d8490973-d862-4e58-88f7-bd4c505857fd"}
+2022-05-24 10:27:34,874 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/d8490973-d862-4e58-88f7-bd4c505857fd/value HTTP/1.1" 200 14
+2022-05-24 10:27:34,875 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,875 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.133" timestamp="2022-05-24T10:27:35" file="UTYourStore\Tests\test1_register.py" line="49">
+		<system-err><![CDATA[2022-05-24 10:27:34,876 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-telephone\"]"}
+2022-05-24 10:27:34,888 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,889 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,889 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/c4fad3d6-13b9-4f37-ad8d-30a4db1db96d/clear {"id": "c4fad3d6-13b9-4f37-ad8d-30a4db1db96d"}
+2022-05-24 10:27:34,925 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/c4fad3d6-13b9-4f37-ad8d-30a4db1db96d/clear HTTP/1.1" 200 14
+2022-05-24 10:27:34,926 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,926 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element {"using": "css selector", "value": "[id=\"input-telephone\"]"}
+2022-05-24 10:27:34,932 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element HTTP/1.1" 200 88
+2022-05-24 10:27:34,932 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:34,932 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64481/session/bdd9eda006925f6bb1af1a5b9416b437/element/c4fad3d6-13b9-4f37-ad8d-30a4db1db96d/value {"text": "666444555", "value": ["6", "6", "6", "4", "4", "4", "5", "5", "5"], "id": "c4fad3d6-13b9-4f37-ad8d-30a4db1db96d"}
+2022-05-24 10:27:35,007 :DEBUG : urllib3.connectionpool :http://localhost:64481 "POST /session/bdd9eda006925f6bb1af1a5b9416b437/element/c4fad3d6-13b9-4f37-ad8d-30a4db1db96d/value HTTP/1.1" 200 14
+2022-05-24 10:27:35,008 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:27:35,008 :INFO : root :Inputed telephone: 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

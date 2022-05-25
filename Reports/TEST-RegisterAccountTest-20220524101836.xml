@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524101836" tests="6" file=".py" time="0.666" timestamp="2022-05-24T10:18:40" failures="0" errors="1" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.126" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="43">
+		<system-err><![CDATA[2022-05-24 10:18:40,259 :INFO : root :Inputed email: YaroBaro@gmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.103" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="29">
+		<system-err><![CDATA[2022-05-24 10:18:40,362 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.100" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="36">
+		<system-err><![CDATA[2022-05-24 10:18:40,463 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.109" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="64">
+		<system-err><![CDATA[2022-05-24 10:18:40,572 :INFO : root :Confirmed password:  password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.122" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="57">
+		<system-err><![CDATA[2022-05-24 10:18:40,694 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.106" timestamp="2022-05-24T10:18:40" file="UTYourStore\Tests\test1_register.py" line="50">
+		<error type="TypeError" message="object of type 'int' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 55, in test_telephone_input
+    assert 3 < (len(self.telephone)) < 32, 'Telephone must be between 3 and 32 characters!'
+TypeError: object of type 'int' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:18:40,799 :INFO : root :Inputed telephone: 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

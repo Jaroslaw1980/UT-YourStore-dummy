@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest_1-20220524085401" tests="1" file=".py" time="0.378" timestamp="2022-05-24T08:54:05" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest_1" name="test_first_name_input" time="0.378" timestamp="2022-05-24T08:54:05" file="UTYourStore\Tests\test1_register.py" line="33"/>
+</testsuite>

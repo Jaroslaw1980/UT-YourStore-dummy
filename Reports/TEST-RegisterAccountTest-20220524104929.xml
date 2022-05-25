@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524104929" tests="6" file=".py" time="0.670" timestamp="2022-05-24T10:49:33" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.134" timestamp="2022-05-24T10:49:32" file="UTYourStore\Tests\test1_register_happy.py" line="46">
+		<system-err><![CDATA[2022-05-24 10:49:32,633 :INFO : root :Inputed email: YaroBaro@gmail.com
+2022-05-24 10:49:32,634 :INFO : root :E-Mail Address does not appear to be valid!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.106" timestamp="2022-05-24T10:49:32" file="UTYourStore\Tests\test1_register_happy.py" line="28">
+		<system-err><![CDATA[2022-05-24 10:49:32,739 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.101" timestamp="2022-05-24T10:49:32" file="UTYourStore\Tests\test1_register_happy.py" line="37">
+		<system-err><![CDATA[2022-05-24 10:49:32,841 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.106" timestamp="2022-05-24T10:49:32" file="UTYourStore\Tests\test1_register_happy.py" line="73">
+		<system-err><![CDATA[2022-05-24 10:49:32,948 :INFO : root :Confirmed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.117" timestamp="2022-05-24T10:49:33" file="UTYourStore\Tests\test1_register_happy.py" line="64">
+		<system-err><![CDATA[2022-05-24 10:49:33,064 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.106" timestamp="2022-05-24T10:49:33" file="UTYourStore\Tests\test1_register_happy.py" line="55">
+		<system-err><![CDATA[2022-05-24 10:49:33,171 :INFO : root :Inputed telephone: 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

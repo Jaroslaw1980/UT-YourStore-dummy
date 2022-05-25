@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.suite._ErrorHolder-20220525093828" tests="1" file="unittest/suite.py" time="0.000" timestamp="0001-01-01T00:00:00" failures="0" errors="1" skipped="0">
+	<testcase classname="" name="setUpClass (__main__.RegisterAccountTest)" time="0.000" timestamp="0001-01-01T00:00:00">
+		<error type="TypeError" message="data_feeder() missing 1 required positional argument: 'cell'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 19, in setUpClass
+    cls.feeder = DataFeeder.data_feeder()
+TypeError: data_feeder() missing 1 required positional argument: 'cell'
+]]></error>
+	</testcase>
+</testsuite>

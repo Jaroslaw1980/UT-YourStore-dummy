@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524102623" tests="6" file=".py" time="0.686" timestamp="2022-05-24T10:26:28" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.139" timestamp="2022-05-24T10:26:27" file="UTYourStore\Tests\test1_register.py" line="42">
+		<system-err><![CDATA[2022-05-24 10:26:27,747 :INFO : root :Inputed email: YaroBaro@gmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.102" timestamp="2022-05-24T10:26:27" file="UTYourStore\Tests\test1_register.py" line="28">
+		<system-err><![CDATA[2022-05-24 10:26:27,850 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.105" timestamp="2022-05-24T10:26:27" file="UTYourStore\Tests\test1_register.py" line="35">
+		<system-err><![CDATA[2022-05-24 10:26:27,955 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.124" timestamp="2022-05-24T10:26:28" file="UTYourStore\Tests\test1_register.py" line="63">
+		<system-err><![CDATA[2022-05-24 10:26:28,080 :INFO : root :Confirmed password:  password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.110" timestamp="2022-05-24T10:26:28" file="UTYourStore\Tests\test1_register.py" line="56">
+		<system-err><![CDATA[2022-05-24 10:26:28,190 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.105" timestamp="2022-05-24T10:26:28" file="UTYourStore\Tests\test1_register.py" line="49">
+		<system-err><![CDATA[2022-05-24 10:26:28,296 :INFO : root :Inputed telephone: 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

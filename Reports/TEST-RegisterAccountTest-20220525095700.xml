@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220525095700" tests="6" file=".py" time="2.357" timestamp="2022-05-25T09:57:07" failures="0" errors="1" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="1.087" timestamp="2022-05-25T09:57:06" file="UTYourStore\Tests\test_register\test_register_happy.py" line="47">
+		<system-err><![CDATA[2022-05-25 09:57:06,036 :INFO : root :Inputed email: YB@gmail.com
+2022-05-25 09:57:06,037 :INFO : root :E-Mail Address does not appear to be valid!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.211" timestamp="2022-05-25T09:57:06" file="UTYourStore\Tests\test_register\test_register_happy.py" line="29">
+		<system-err><![CDATA[2022-05-25 09:57:06,250 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.247" timestamp="2022-05-25T09:57:06" file="UTYourStore\Tests\test_register\test_register_happy.py" line="38">
+		<system-err><![CDATA[2022-05-25 09:57:06,496 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.262" timestamp="2022-05-25T09:57:06" file="UTYourStore\Tests\test_register\test_register_happy.py" line="74">
+		<system-err><![CDATA[2022-05-25 09:57:06,758 :INFO : root :Confirmed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.267" timestamp="2022-05-25T09:57:07" file="UTYourStore\Tests\test_register\test_register_happy.py" line="65">
+		<system-err><![CDATA[2022-05-25 09:57:07,027 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.283" timestamp="2022-05-25T09:57:07" file="UTYourStore\Tests\test_register\test_register_happy.py" line="56">
+		<error type="TypeError" message="object of type 'int' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 63, in test_telephone_input
+    assert 3 < (len(self.telephone)) < 32, log.info('Telephone must be between 3 and 32 characters!')
+TypeError: object of type 'int' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-25 09:57:07,308 :INFO : root :Inputed telephone: 666555444
+]]></system-err>
+	</testcase>
+</testsuite>

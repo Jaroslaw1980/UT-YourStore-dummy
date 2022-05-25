@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite name="RegisterAccountTest_1-20220524084100" tests="1" time="0.001" failures="0" errors="1">
+	<testcase classname="RegisterAccountTest_1" name="test_first_name_input" time="0.001">
+		<error type="AttributeError" message="'RegisterAccountTest_1' object has no attribute 'subtest'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 40, in test_first_name_input
+    with self.subtest(cases=cases):
+AttributeError: 'RegisterAccountTest_1' object has no attribute 'subtest'
+]]></error>
+	</testcase>
+	<system-out><![CDATA[]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>

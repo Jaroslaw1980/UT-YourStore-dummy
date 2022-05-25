@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220525095112" tests="6" file=".py" time="2.406" timestamp="2022-05-25T09:51:19" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.304" timestamp="2022-05-25T09:51:17" file="UTYourStore\Tests\test_register\test_register_happy.py" line="47">
+		<system-err><![CDATA[2022-05-25 09:51:17,441 :INFO : root :Inputed email: YaroBaro@gmail.com
+2022-05-25 09:51:17,442 :INFO : root :E-Mail Address does not appear to be valid!
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="1.049" timestamp="2022-05-25T09:51:18" file="UTYourStore\Tests\test_register\test_register_happy.py" line="29">
+		<system-err><![CDATA[2022-05-25 09:51:18,492 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.251" timestamp="2022-05-25T09:51:18" file="UTYourStore\Tests\test_register\test_register_happy.py" line="38">
+		<system-err><![CDATA[2022-05-25 09:51:18,743 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.276" timestamp="2022-05-25T09:51:19" file="UTYourStore\Tests\test_register\test_register_happy.py" line="74">
+		<system-err><![CDATA[2022-05-25 09:51:19,018 :INFO : root :Confirmed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.261" timestamp="2022-05-25T09:51:19" file="UTYourStore\Tests\test_register\test_register_happy.py" line="65">
+		<system-err><![CDATA[2022-05-25 09:51:19,280 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.264" timestamp="2022-05-25T09:51:19" file="UTYourStore\Tests\test_register\test_register_happy.py" line="56">
+		<system-err><![CDATA[2022-05-25 09:51:19,544 :INFO : root :Inputed telephone: 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524100354" tests="6" file=".py" time="0.668" timestamp="2022-05-24T10:03:58" failures="0" errors="3" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.132" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="41">
+		<system-err><![CDATA[2022-05-24 10:03:58,099 :INFO : root :Inputed email = YaroBaro@gmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.124" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="29">
+		<system-err><![CDATA[--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 74, in <module>
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='C:/Python/Selenium/UTYourStore/Reports'))
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\site-packages\xmlrunner\runner.py", line 67, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 32, in test_firstname_input
+    RegisterAccountTest.logger.info("Inputed firstname: ", firstname)
+Message: 'Inputed firstname: '
+Arguments: (None,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 367, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 74, in <module>
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='C:/Python/Selenium/UTYourStore/Reports'))
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\site-packages\xmlrunner\runner.py", line 67, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 651, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\Nazir\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 32, in test_firstname_input
+    RegisterAccountTest.logger.info("Inputed firstname: ", firstname)
+Message: 'Inputed firstname: '
+Arguments: (None,)
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.104" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="59">
+		<system-err><![CDATA[2022-05-24 10:03:58,428 :INFO : root :Confirmed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.100" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="35">
+		<error type="TypeError" message="object of type 'NoneType' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 39, in test_lastname_input
+    assert 1 < (len(lastname)) < 32, 'First Name must be between 1 and 32 characters!'
+TypeError: object of type 'NoneType' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:03:58,323 :INFO : root :Inputed lastname = Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.108" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="53">
+		<error type="TypeError" message="object of type 'NoneType' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 57, in test_passwordconfirm_input
+    assert 4 < (len(password)) < 20, 'Password must be between 4 and 20 characters!'
+TypeError: object of type 'NoneType' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:03:58,535 :INFO : root :Inputed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.100" timestamp="2022-05-24T10:03:58" file="UTYourStore\Tests\test1_register.py" line="47">
+		<error type="TypeError" message="object of type 'NoneType' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 51, in test_telephone_input
+    assert 3 < (len(telephone)) < 32, 'Telephone must be between 3 and 32 characters!'
+TypeError: object of type 'NoneType' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:03:58,637 :INFO : root :Inputed telephone = 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

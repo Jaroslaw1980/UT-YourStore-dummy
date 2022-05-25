@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524103304" tests="6" file=".py" time="0.686" timestamp="2022-05-24T10:33:09" failures="4" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.135" timestamp="2022-05-24T10:33:08" file="UTYourStore\Tests\test2_register_sad.py" line="42">
+		<system-err><![CDATA[2022-05-24 10:33:08,368 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-email\"]"}
+2022-05-24 10:33:08,386 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,387 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,387 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/a75b88fc-5aaa-4ff8-b985-d70dd9bc5412/clear {"id": "a75b88fc-5aaa-4ff8-b985-d70dd9bc5412"}
+2022-05-24 10:33:08,419 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/a75b88fc-5aaa-4ff8-b985-d70dd9bc5412/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,419 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,419 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-email\"]"}
+2022-05-24 10:33:08,431 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,431 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,431 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/a75b88fc-5aaa-4ff8-b985-d70dd9bc5412/value {"text": "YaroBarogmail.com", "value": ["Y", "a", "r", "o", "B", "a", "r", "o", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "a75b88fc-5aaa-4ff8-b985-d70dd9bc5412"}
+2022-05-24 10:33:08,497 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/a75b88fc-5aaa-4ff8-b985-d70dd9bc5412/value HTTP/1.1" 200 14
+2022-05-24 10:33:08,498 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,499 :INFO : root :Inputed email: YaroBarogmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.115" timestamp="2022-05-24T10:33:08" file="UTYourStore\Tests\test2_register_sad.py" line="63">
+		<system-err><![CDATA[2022-05-24 10:33:08,712 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-confirm\"]"}
+2022-05-24 10:33:08,724 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,725 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,725 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/1ba86313-f53c-40b1-9d10-028e77e72ff8/clear {"id": "1ba86313-f53c-40b1-9d10-028e77e72ff8"}
+2022-05-24 10:33:08,764 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/1ba86313-f53c-40b1-9d10-028e77e72ff8/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,765 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,765 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-confirm\"]"}
+2022-05-24 10:33:08,772 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,772 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,773 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/1ba86313-f53c-40b1-9d10-028e77e72ff8/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "1ba86313-f53c-40b1-9d10-028e77e72ff8"}
+2022-05-24 10:33:08,824 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/1ba86313-f53c-40b1-9d10-028e77e72ff8/value HTTP/1.1" 200 14
+2022-05-24 10:33:08,825 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,825 :INFO : root :Confirmed password:  password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.107" timestamp="2022-05-24T10:33:08" file="UTYourStore\Tests\test2_register_sad.py" line="28">
+		<failure type="AssertionError" message="First Name must be between 1 and 32 characters!"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 33, in test_firstname_input
+    assert 1 < (len(self.firstname)) < 32, 'First Name must be between 1 and 32 characters!'
+AssertionError: First Name must be between 1 and 32 characters!
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:33:08,500 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-firstname\"]"}
+2022-05-24 10:33:08,513 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,514 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,514 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/e4d7c203-d7d6-48c5-b276-9f1cf5d37186/clear {"id": "e4d7c203-d7d6-48c5-b276-9f1cf5d37186"}
+2022-05-24 10:33:08,546 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/e4d7c203-d7d6-48c5-b276-9f1cf5d37186/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,546 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,546 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-firstname\"]"}
+2022-05-24 10:33:08,562 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,563 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,563 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/e4d7c203-d7d6-48c5-b276-9f1cf5d37186/value {"text": "Y", "value": ["Y"], "id": "e4d7c203-d7d6-48c5-b276-9f1cf5d37186"}
+2022-05-24 10:33:08,604 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/e4d7c203-d7d6-48c5-b276-9f1cf5d37186/value HTTP/1.1" 200 14
+2022-05-24 10:33:08,605 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,605 :INFO : root :Inputed firstname: Y
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.105" timestamp="2022-05-24T10:33:08" file="UTYourStore\Tests\test2_register_sad.py" line="35">
+		<failure type="AssertionError" message="Last Name must be between 1 and 32 characters!"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 40, in test_lastname_input
+    assert 1 < (len(self.lastname)) < 32, 'Last Name must be between 1 and 32 characters!'
+AssertionError: Last Name must be between 1 and 32 characters!
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:33:08,607 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-lastname\"]"}
+2022-05-24 10:33:08,620 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,620 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,620 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/f62ff85d-31a9-4347-b360-c2317efef48b/clear {"id": "f62ff85d-31a9-4347-b360-c2317efef48b"}
+2022-05-24 10:33:08,654 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/f62ff85d-31a9-4347-b360-c2317efef48b/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,654 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,654 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-lastname\"]"}
+2022-05-24 10:33:08,662 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,666 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,666 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/f62ff85d-31a9-4347-b360-c2317efef48b/value {"text": "B", "value": ["B"], "id": "f62ff85d-31a9-4347-b360-c2317efef48b"}
+2022-05-24 10:33:08,709 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/f62ff85d-31a9-4347-b360-c2317efef48b/value HTTP/1.1" 200 14
+2022-05-24 10:33:08,710 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,710 :INFO : root :Inputed lastname: B
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.115" timestamp="2022-05-24T10:33:08" file="UTYourStore\Tests\test2_register_sad.py" line="56">
+		<failure type="AssertionError" message="Password must be between 4 and 20 characters!"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 61, in test_passwordconfirm_input
+    assert 4 < (len(self.password)) < 20, 'Password must be between 4 and 20 characters!'
+AssertionError: Password must be between 4 and 20 characters!
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:33:08,826 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-password\"]"}
+2022-05-24 10:33:08,841 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,842 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,842 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/b3b5e876-d9b7-42bd-9820-7b13bdf475da/clear {"id": "b3b5e876-d9b7-42bd-9820-7b13bdf475da"}
+2022-05-24 10:33:08,882 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/b3b5e876-d9b7-42bd-9820-7b13bdf475da/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,882 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,882 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-password\"]"}
+2022-05-24 10:33:08,891 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,892 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,892 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/b3b5e876-d9b7-42bd-9820-7b13bdf475da/value {"text": "pas", "value": ["p", "a", "s"], "id": "b3b5e876-d9b7-42bd-9820-7b13bdf475da"}
+2022-05-24 10:33:08,940 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/b3b5e876-d9b7-42bd-9820-7b13bdf475da/value HTTP/1.1" 200 14
+2022-05-24 10:33:08,940 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,941 :INFO : root :Inputed password: pas
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.109" timestamp="2022-05-24T10:33:09" file="UTYourStore\Tests\test2_register_sad.py" line="49">
+		<failure type="AssertionError" message="Telephone must be between 3 and 32 characters!"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test2_register_sad.py", line 54, in test_telephone_input
+    assert 3 < (len(self.telephone)) < 32, 'Telephone must be between 3 and 32 characters!'
+AssertionError: Telephone must be between 3 and 32 characters!
+]]></failure>
+		<system-err><![CDATA[2022-05-24 10:33:08,942 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-telephone\"]"}
+2022-05-24 10:33:08,955 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:08,955 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,956 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d/clear {"id": "8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d"}
+2022-05-24 10:33:08,995 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d/clear HTTP/1.1" 200 14
+2022-05-24 10:33:08,995 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:08,996 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element {"using": "css selector", "value": "[id=\"input-telephone\"]"}
+2022-05-24 10:33:09,001 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element HTTP/1.1" 200 88
+2022-05-24 10:33:09,004 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:09,004 :DEBUG : selenium.webdriver.remote.remote_connection :POST http://localhost:64706/session/5e1ae2b721d66a4cc4c8172e3e09d310/element/8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d/value {"text": "666", "value": ["6", "6", "6"], "id": "8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d"}
+2022-05-24 10:33:09,048 :DEBUG : urllib3.connectionpool :http://localhost:64706 "POST /session/5e1ae2b721d66a4cc4c8172e3e09d310/element/8e1b9462-4538-4ea2-b5ef-a3b9c4d8c66d/value HTTP/1.1" 200 14
+2022-05-24 10:33:09,049 :DEBUG : selenium.webdriver.remote.remote_connection :Finished Request
+2022-05-24 10:33:09,049 :INFO : root :Inputed telephone: 666
+]]></system-err>
+	</testcase>
+</testsuite>

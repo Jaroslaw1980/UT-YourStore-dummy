@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524092657" tests="6" file=".py" time="0.676" timestamp="2022-05-24T09:27:02" failures="1" errors="4" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.139" timestamp="2022-05-24T09:27:01" file="UTYourStore\Tests\test1_register.py" line="49">
+		<system-err><![CDATA[2022-05-24 09:27:01,582 :INFO : root :Inputed email = YaroBaro@gmail.com
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.108" timestamp="2022-05-24T09:27:01" file="UTYourStore\Tests\test1_register.py" line="67">
+		<failure type="AssertionError" message=""><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 71, in test_password_input
+    assert password_confirm == "password"
+AssertionError
+]]></failure>
+		<system-err><![CDATA[2022-05-24 09:27:01,895 :INFO : root :Confirmed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.104" timestamp="2022-05-24T09:27:01" file="UTYourStore\Tests\test1_register.py" line="37">
+		<error type="TypeError" message="'&lt;' not supported between instances of 'int' and 'NoneType'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 41, in test_firstname_input
+    assert 1 < firstname < 32, 'First Name must be between 1 and 32 characters!'
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+]]></error>
+		<system-err><![CDATA[2022-05-24 09:27:01,686 :INFO : root :Inputed name = Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.102" timestamp="2022-05-24T09:27:01" file="UTYourStore\Tests\test1_register.py" line="43">
+		<error type="TypeError" message="'&lt;' not supported between instances of 'int' and 'NoneType'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 47, in test_lastname_input
+    assert 1 < lastname < 32, 'First Name must be between 1 and 32 characters!'
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+]]></error>
+		<system-err><![CDATA[2022-05-24 09:27:01,788 :INFO : root :Inputed name = Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.111" timestamp="2022-05-24T09:27:02" file="UTYourStore\Tests\test1_register.py" line="61">
+		<error type="TypeError" message="'&lt;' not supported between instances of 'int' and 'NoneType'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 65, in test_passwordconfirm_input
+    assert 4 < password < 20, 'Password must be between 4 and 20 characters!'
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+]]></error>
+		<system-err><![CDATA[2022-05-24 09:27:02,006 :INFO : root :Inputed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.112" timestamp="2022-05-24T09:27:02" file="UTYourStore\Tests\test1_register.py" line="55">
+		<error type="TypeError" message="'&lt;' not supported between instances of 'int' and 'NoneType'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 59, in test_telephone_input
+    assert 3 < telephone < 32, 'Telephone must be between 3 and 32 characters!'
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+]]></error>
+		<system-err><![CDATA[2022-05-24 09:27:02,118 :INFO : root :Inputed telephone = 666444555
+]]></system-err>
+	</testcase>
+</testsuite>

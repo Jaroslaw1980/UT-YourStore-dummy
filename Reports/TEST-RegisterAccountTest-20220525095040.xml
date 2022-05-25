@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220525095040" tests="6" file=".py" time="2.241" timestamp="2022-05-25T09:50:47" failures="0" errors="6" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.249" timestamp="2022-05-25T09:50:45" file="UTYourStore\Tests\test_register\test_register_happy.py" line="47">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 53, in test_email_input
+    log.info(f'Inputed email: {self.email}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="1.092" timestamp="2022-05-25T09:50:46" file="UTYourStore\Tests\test_register\test_register_happy.py" line="29">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 35, in test_firstname_input
+    log.info(f'Inputed firstname: {self.firstname}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.198" timestamp="2022-05-25T09:50:46" file="UTYourStore\Tests\test_register\test_register_happy.py" line="38">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 44, in test_lastname_input
+    log.info(f'Inputed lastname: {self.lastname}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.223" timestamp="2022-05-25T09:50:46" file="UTYourStore\Tests\test_register\test_register_happy.py" line="74">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 80, in test_password_input
+    log.info(f'Confirmed password: {self.confirm_password}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.241" timestamp="2022-05-25T09:50:46" file="UTYourStore\Tests\test_register\test_register_happy.py" line="65">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 71, in test_passwordconfirm_input
+    log.info(f'Inputed password: {self.password}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.239" timestamp="2022-05-25T09:50:47" file="UTYourStore\Tests\test_register\test_register_happy.py" line="56">
+		<error type="AttributeError" message="'function' object has no attribute 'info'"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test_register\test_register_happy.py", line 62, in test_telephone_input
+    RegisterAccountTest.logger.info(f'Inputed telephone: {self.telephone}')
+AttributeError: 'function' object has no attribute 'info'
+]]></error>
+	</testcase>
+</testsuite>

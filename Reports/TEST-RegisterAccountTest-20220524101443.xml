@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524101443" tests="6" file=".py" time="0.665" timestamp="2022-05-24T10:14:47" failures="0" errors="2" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.131" timestamp="2022-05-24T10:14:46" file="UTYourStore\Tests\test1_register.py" line="43">
+		<system-err><![CDATA[2022-05-24 10:14:46,915 :INFO : root :Inputed email: None
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.101" timestamp="2022-05-24T10:14:47" file="UTYourStore\Tests\test1_register.py" line="29">
+		<system-err><![CDATA[2022-05-24 10:14:47,023 :INFO : root :Inputed firstname: Yaro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.102" timestamp="2022-05-24T10:14:47" file="UTYourStore\Tests\test1_register.py" line="36">
+		<system-err><![CDATA[2022-05-24 10:14:47,127 :INFO : root :Inputed lastname: Baro
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.104" timestamp="2022-05-24T10:14:47" file="UTYourStore\Tests\test1_register.py" line="64">
+		<system-err><![CDATA[2022-05-24 10:14:47,231 :INFO : root :Confirmed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.120" timestamp="2022-05-24T10:14:47" file="UTYourStore\Tests\test1_register.py" line="57">
+		<error type="TypeError" message="object of type 'NoneType' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 62, in test_passwordconfirm_input
+    assert 4 < (len(password)) < 20, 'Password must be between 4 and 20 characters!'
+TypeError: object of type 'NoneType' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:14:47,350 :INFO : root :Inputed password = password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.107" timestamp="2022-05-24T10:14:47" file="UTYourStore\Tests\test1_register.py" line="50">
+		<error type="TypeError" message="object of type 'NoneType' has no len()"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register.py", line 55, in test_telephone_input
+    assert 3 < (len(telephone)) < 32, 'Telephone must be between 3 and 32 characters!'
+TypeError: object of type 'NoneType' has no len()
+]]></error>
+		<system-err><![CDATA[2022-05-24 10:14:47,457 :INFO : root :Inputed telephone: None
+]]></system-err>
+	</testcase>
+</testsuite>

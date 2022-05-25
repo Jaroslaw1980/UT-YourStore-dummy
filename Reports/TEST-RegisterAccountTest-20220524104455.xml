@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524104455" tests="6" file=".py" time="0.228" timestamp="2022-05-24T10:45:01" failures="0" errors="4" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_password_input" time="0.112" timestamp="2022-05-24T10:45:01" file="UTYourStore\Tests\test1_register_happy.py" line="71">
+		<system-err><![CDATA[2022-05-24 10:45:01,053 :INFO : root :Confirmed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_passwordconfirm_input" time="0.106" timestamp="2022-05-24T10:45:01" file="UTYourStore\Tests\test1_register_happy.py" line="64">
+		<system-err><![CDATA[2022-05-24 10:45:01,159 :INFO : root :Inputed password: password
+]]></system-err>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_email_input" time="0.006" timestamp="2022-05-24T10:45:00" file="UTYourStore\Tests\test1_register_happy.py" line="46">
+		<error type="TypeError" message="'RootLogger' object is not callable"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register_happy.py", line 48, in test_email_input
+    log = RegisterAccountTest.logger()
+TypeError: 'RootLogger' object is not callable
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.001" timestamp="2022-05-24T10:45:00" file="UTYourStore\Tests\test1_register_happy.py" line="28">
+		<error type="TypeError" message="'RootLogger' object is not callable"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register_happy.py", line 30, in test_firstname_input
+    log = RegisterAccountTest.logger()
+TypeError: 'RootLogger' object is not callable
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_lastname_input" time="0.002" timestamp="2022-05-24T10:45:00" file="UTYourStore\Tests\test1_register_happy.py" line="37">
+		<error type="TypeError" message="'RootLogger' object is not callable"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register_happy.py", line 39, in test_lastname_input
+    log = RegisterAccountTest.logger()
+TypeError: 'RootLogger' object is not callable
+]]></error>
+	</testcase>
+	<testcase classname="RegisterAccountTest" name="test_telephone_input" time="0.001" timestamp="2022-05-24T10:45:01" file="UTYourStore\Tests\test1_register_happy.py" line="55">
+		<error type="TypeError" message="'RootLogger' object is not callable"><![CDATA[Traceback (most recent call last):
+  File "c:\Python\Selenium\UTYourStore\Tests\test1_register_happy.py", line 57, in test_telephone_input
+    log = RegisterAccountTest.logger()
+TypeError: 'RootLogger' object is not callable
+]]></error>
+	</testcase>
+</testsuite>

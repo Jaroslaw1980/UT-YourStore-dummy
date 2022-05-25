@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterAccountTest-20220524090808" tests="1" file=".py" time="0.251" timestamp="2022-05-24T09:08:13" failures="0" errors="0" skipped="0">
+	<testcase classname="RegisterAccountTest" name="test_firstname_input" time="0.251" timestamp="2022-05-24T09:08:13" file="UTYourStore\Tests\test1_register.py" line="33">
+		<system-err><![CDATA[2022-05-24 09:08:13,789 :INFO : root :Inputed name = Yaro
+]]></system-err>
+	</testcase>
+</testsuite>
